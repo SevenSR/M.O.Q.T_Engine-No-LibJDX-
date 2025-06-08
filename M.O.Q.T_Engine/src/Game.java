@@ -1,7 +1,7 @@
-public class Game {
-public static void start(){
-        System.out.println("Game start");
+import java.util.Scanner;
 
-	
-	}
+public class Game {
+        public static void open(){
+System.out.println("Game?");
+}
 }
