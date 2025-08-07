@@ -26,7 +26,7 @@ switch(number) {
 		break;
 	case 2:
 		Editor.start();
-		System.out.println("Redact & Create [Working]");
+		System.out.println("Redact & Create (coming soon)");
 		running = false;
 		break;
 	case 3:
@@ -56,9 +56,9 @@ public static void Gm_Logic(){
 boolean running = true;        
 int number =0;
 while ( running){
-	System.out.println("1: продолжить");
-	System.out.println("2: загрузить");
-	System.out.println("3: сохранить");
+	System.out.println("1: Kodisword Disunited century");
+	System.out.println("2: The Steel wolf");
+	System.out.println("3: Steel Wolf");
         System.out.println("4: Settings");
 	System.out.println("5: Main Menu");
 Scanner scanner = new Scanner(System.in);
@@ -67,18 +67,22 @@ Scanner scanner = new Scanner(System.in);
 
 switch(number) {
 	case 1:
-	
+	Kodisword_Disunited_century.start();
+	System.out.println("Kodisword Disunited century");
+	running = false;
 		break;
 	case 2:
-	
-		break;
-        
+	System.out.println("There is no need for this edition");
+	running = false;
+		break;     
 	case 3:
-	
+		System.out.println("There is no need for this edition");
+	running = false;
 		break;
 	case 4:
 		Settings.open();
 		System.out.println("Settings(comming soon");
+		running = false;
 		break;
         case 5:
 		System.out.println("Main Menu");
@@ -94,5 +98,7 @@ switch(number) {
 		
 	}
 }
+
+
 
 
