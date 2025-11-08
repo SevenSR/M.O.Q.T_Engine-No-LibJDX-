@@ -1,2 +1,2 @@
-# M.O.Q.T_Engine-No-LibJDX-(JavaFX-Edition)
-This is my Game engine (No KibJDX edition)
+# M.O.Q.T_Engine-No-LibJDX-(SWING+AWT)
+This is my game "No_LibGDX_Edition," which will be a demo version of my main game, which may extend beyond just a 2D game. It's possible (but unlikely, as I don't yet know how to do this and will only allow modifications to the 2D version of the game, which will be fully functional) that the 3D "Sandbox" editor will not be included. A demo version of the game means that it will be written without the LibGDX engine and will also have only one (i.e., 2D platformer) game mode, while the 3D version of the company and the 3D version of Sandbox will simply not be included in this edition.
